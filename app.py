@@ -34,7 +34,7 @@ def main():
 
     
     html_temp = """
-   <div class="" style="background-color:blue;" >
+   <div class="" style="background-color:black;" >
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:40px;color:white;margin-top:10px;">Poornima Institute of Engineering & Technology</p></center> 
@@ -55,40 +55,40 @@ def main():
     "Region",
     ("1", "2","3")
     )
-    fresh1 = st.number_input('Insert Fresh1 ',3,100000)
-    milk1 = st.number_input("Insert milk1 ",55,100000)
-    grocery1 = st.number_input("Insert grocery1",3,100000)
-    frozen1 = st.number_input("Insert frozen1 ",25,100000)
-    detergents1 = st.number_input("Insert detergents1",3,100000)
-    delicassen1 = st.number_input("Insert delicaseen1",3,100000)
+    fresh1 = st.number_input('Insert Fresh of 1 ',3,100000)
+    milk1 = st.number_input("Insert milk of 1 ",55,100000)
+    grocery1 = st.number_input("Insert grocery of 1",3,100000)
+    frozen1 = st.number_input("Insert frozen of 1 ",25,100000)
+    detergents1 = st.number_input("Insert detergents of 1",3,100000)
+    delicassen1 = st.number_input("Insert delicaseen of 1",3,100000)
 
-    fresh2 = st.number_input('Insert Fresh2 ',3,100000)
-    milk2 = st.number_input("Insert milk2 ",55,100000)
-    grocery2 = st.number_input("Insert grocery2 ",3,100000)
-    frozen2 = st.number_input("Insert frozen2 ",25,100000)
-    detergents2 = st.number_input("Insert detergents2",3,100000)
-    delicassen2 = st.number_input("Insert delicaseen2",3,100000)
+    fresh2 = st.number_input('Insert Fresh of 2 ',3,100000)
+    milk2 = st.number_input("Insert milk of 2 ",55,100000)
+    grocery2 = st.number_input("Insert grocery of 2 ",3,100000)
+    frozen2 = st.number_input("Insert frozen of 2 ",25,100000)
+    detergents2 = st.number_input("Insert detergents of 2",3,100000)
+    delicassen2 = st.number_input("Insert delicaseen of 2",3,100000)
 
-    fresh3 = st.number_input('Insert Fresh3 ',3,100000)
-    milk3 = st.number_input("Insert milk 3",55,100000)
-    grocery3 = st.number_input("Insert grocery3 ",3,100000)
-    frozen3 = st.number_input("Insert frozen3 ",25,100000)
-    detergents3 = st.number_input("Insert detergents3",3,100000)
-    delicassen3 = st.number_input("Insert delicaseen3",3,100000)
+    fresh3 = st.number_input('Insert Fresh of 3 ',3,100000)
+    milk3 = st.number_input("Insert milk of 3",55,100000)
+    grocery3 = st.number_input("Insert grocery of 3  ",3,100000)
+    frozen3 = st.number_input("Insert frozen of 3  ",25,100000)
+    detergents3 = st.number_input("Insert detergents of 3",3,100000)
+    delicassen3 = st.number_input("Insert delicaseen of 3",3,100000)
 
-    fresh4 = st.number_input('Insert Fresh4 ',3,100000)
-    milk4 = st.number_input("Insert milk4 ",55,100000)
-    grocery4 = st.number_input("Insert grocery4",3,100000)
-    frozen4 = st.number_input("Insert frozen4 ",25,100000)
-    detergents4 = st.number_input("Insert detergents4",3,100000)
-    delicassen4 = st.number_input("Insert delicaseen4",3,100000)
+    fresh4 = st.number_input('Insert Fresh of 4 ',3,100000)
+    milk4 = st.number_input("Insert milk  of 4 ",55,100000)
+    grocery4 = st.number_input("Insert grocery  of 4",3,100000)
+    frozen4 = st.number_input("Insert frozen  of 4 ",25,100000)
+    detergents4 = st.number_input("Insert detergents  of 4",3,100000)
+    delicassen4 = st.number_input("Insert delicaseen  of 4",3,100000)
 
-    fresh5 = st.number_input('Insert Fresh5 ',3,100000)
-    milk5 = st.number_input("Insert milk 5",55,100000)
-    grocery5 = st.number_input("Insert grocery5",3,100000)
-    frozen5 = st.number_input("Insert frozen5 ",25,100000)
-    detergents5 = st.number_input("Insert detergents5",3,100000)
-    delicassen5 = st.number_input("Insert delicaseen5",3,100000)
+    fresh5 = st.number_input('Insert Fresh of 5',3,100000)
+    milk5 = st.number_input("Insert milk  of 5",55,100000)
+    grocery5 = st.number_input("Insert grocery  of 5",3,100000)
+    frozen5 = st.number_input("Insert frozen  of 5 ",25,100000)
+    detergents5 = st.number_input("Insert detergents  of 5",3,100000)
+    delicassen5 = st.number_input("Insert delicaseen  of 5",3,100000)
 
     resul=""
     if st.button("Predict"):
@@ -96,13 +96,13 @@ def main():
       st.success('Model has predicted {}'.format(result))
       
     if st.button("About"):
-      st.subheader("Developed by Priyanshu Jain")
-      st.subheader("C-Section PIET")
+      st.subheader("Developed Rahul Kumar Agrawal")
+      
     html_temp = """
-   <div class="" style="background-color:orange;" >
+   <div class="" style="background-color:red;" >
    <div class="clearfix">           
    <div class="col-md-12">
-   <center><p style="font-size:20px;color:white;margin-top:10px;">Machine learning Experiment No. 8</p></center> 
+   <center><p style="font-size:20px;color:white;margin-top:10px;">Machine learning Experiment No. 8 by Rahul Agrawal</p></center> 
    </div>
    </div>
    </div>
